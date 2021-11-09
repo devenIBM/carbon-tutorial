@@ -31,11 +31,11 @@ const AppHeader = () => (
           isActive={isSideNavExpanded}
         />
         <HeaderName element={Link} to="/" prefix="IBM">
-          OMT
+          Onboarding Tool
         </HeaderName>
-        <HeaderNavigation aria-label="Carbon Tutorial">
-          <HeaderMenuItem element={Link} to="/repos">
-            Repositories
+        <HeaderNavigation aria-label="Teams">
+          <HeaderMenuItem element={Link} to="/teams">
+            Teams
           </HeaderMenuItem>
         </HeaderNavigation>
         <SideNav
@@ -44,7 +44,7 @@ const AppHeader = () => (
           isPersistent={false}>
           <SideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem href="/repos">Repositories</HeaderMenuItem>
+              <HeaderMenuItem href="/teams">Teams</HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>
